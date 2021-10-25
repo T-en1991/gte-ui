@@ -1,0 +1,41 @@
+<template>
+  <div>
+    <div class="wrapper" style="height: 200px">
+      <div class="item">
+        <gte-card more="more" label="头部名称" @emitMore="emitMore"
+        >【label】可以配置标题哦</gte-card
+        >
+      </div>
+      <div class="item">
+        <gte-card more="更多" label="test" @emitMore="emitMore" theme="#0747a6"
+        >【theme】可以配置主题颜色哦<br />【more】【emitMor】可以配置按钮</gte-card
+        >
+      </div>
+      <div class="item">
+        <gte-card theme="#ff0000">好用真好用好用真好用好用真好用</gte-card>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  methods: {
+    emitMore() {
+      alert("gte-ui真好用");
+    }
+  }
+};
+</script>
+
+<style lang="less" scoped>
+.wrapper {
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  .item {
+    padding: 0 10px;
+    width: 300px;
+  }
+}
+</style>
