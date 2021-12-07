@@ -19,10 +19,18 @@ export default {
         },
         {
           path: 'gtelayout',
-          name: 'Card',
+          name: 'LayOut',
           component: () => import("@/views/ui/GteLayout/index.vue"),
           meta: {
             title: "布局"
+          }
+        },
+        {
+          path: 'gteicon',
+          name: 'Icon',
+          component: () => import("@/views/ui/GteIcon/index.vue"),
+          meta: {
+            title: "图标"
           }
         }
       ]

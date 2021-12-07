@@ -6,11 +6,11 @@ import router from './router'
 import "@/style/index.less";
 
 // 注册组件库组件
-// import "./register.ts";
+import "./register.ts";
 
-// import ui from '../examples/views/test/test'
-//
-// Vue.use(ui)
+import ui from '../examples/views/test/test'
+
+Vue.use(ui)
 
 
 

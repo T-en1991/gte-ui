@@ -2,7 +2,7 @@
   <div class="items">
     <div class="item-contemt" v-for="(item, index) in icons" :key="index">
       <div style="text-align: center">
-        <jq-icon :name="item.font_class"></jq-icon>
+        <gte-icon :name="item.font_class"></gte-icon>
       </div>
       <div style="text-align: center">{{ item.font_class }}</div>
     </div>

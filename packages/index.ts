@@ -2,8 +2,11 @@
 import gteUi from "./gteUi"
 // 工具包
 import gteUtil from "./gteUtils/index"
+//工具组件
+import gteTool from "./gteTool";
 
-const cAndD = Object.assign({}, gteUi);
+
+const cAndD = Object.assign({}, gteUi,gteTool);
 
 const install = function (Vue: any) {
   if ((install as any).installed) return;
