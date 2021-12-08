@@ -5,7 +5,7 @@ export default {
     {
       path: "/frame",
       name: "Frame",
-      component: import("@/frame/index.vue"),
+      component: ()=>import("@/frame/index.vue"),
       meta: {
         title: "工具组件"
       },
